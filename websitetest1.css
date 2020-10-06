@@ -11,7 +11,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #296cd5;
+  background-color: black;
 }
 
 /* Style the topnav links */
@@ -24,37 +24,26 @@ body {
   text-decoration: none;
 }
 
-/* Change color on hover */
+/* Menu Hover */
 .topnav a:hover {
-  background-color: #a6a5ad;
+  background-color: #296cd5;
   color: black;
 }
 
+/* Title */
 .title {
-background-color: #a6a5ad;
+background-color: #296cd5;
 padding: 1px;
 text-align: center
-}
-
-/* Style the content */
-.content {
-  background-color: #296cd5;
-  padding: 1px;
-
-}
-
-.content{
-  color: white    
-    
 }
 
 .column {
   float: left;
   width: 25%;
   padding: 5px;
+    background-color: black
 }
 
-/* Clear floats after image containers */
 .row::after {
   content: "";
   clear: both;
@@ -63,7 +52,7 @@ text-align: center
 
 /* Style the footer */
 .footer {
-  background-color: #a6a5ad;
+  background-color: #296cd5;
   padding: 1px;
   text-align: center
 
@@ -93,3 +82,4 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
